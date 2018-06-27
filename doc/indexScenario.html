@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+<script>
+$.ajax({
+    url: "/sample_url.xml",
+    type: "GET",
+    dataType: "html",
+    success: function(data) {
+        var xml = $.parseXML(data);
+        $(xml).find('category_number').each(function(){
+            category_number = $(this).text();
+            var parent_number = $(this).parent().find('parent_number').text();
+            var category_name = $(this).parent().find('category_name').text();
+
+            var sub_array = [];
+
+            //GET CATEGORIES SUB-CATEGORIES
+            $(this).closest('Data').find('parent_number').each(function(){
+                if($(this).text()==category_number){
+                    var category_id = $(this).parent().find('category_number').text();
+                    sub_array.push('<li>' + $(this).parent().find('category_name').text() + '</li>');
+                }
+            });
+
+            $('ul#category_list').each(function(){
+                if($(this).attr('class')==parent_number){
+                    $(this).append('<li><ul id="' + category_number + '"></ul></li>');
+                    $('ul#' + category_number).html(sub_array.join(""));
+                }
+            });
+        });
+    }
+});
+</script>
+</head>
+<body>
+<!--THIS WOULD BE THE UNORDERED LIST FOR CATEGORY 4; IT HAS A CLASS OF '4'-->
+<ul class="4">
+    <li>This is a parent category. Category 4. A new list will be put in here with this categories child categories.</li>
+</ul>
+<ul class="2">
+    <li>This is a parent category. Category 2. A new list will be put in here with this categories child categories.</li>
+</ul>
+</body>
+</html>

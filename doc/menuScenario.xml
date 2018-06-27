@@ -1,0 +1,352 @@
+
+<root>
+	<menu>0. L’ÉTUDE DE CAS : SWEET HOME 3D
+		<menuFile>Les circonstances </menuFile>
+		<menuFile>Sweet Home 3D
+			<menuItem>Cahier des charges</menuItem>
+			<menuItem>Spécifications générales</menuItem>
+			<menuItem>Maquette papier du logiciel</menuItem>
+			<menuItem>Principaux menus de l’application</menuItem>
+			<menuItem>Intégration du logiciel dans le système d’exploitation</menuItem>
+			<menuItem>Choix du langage</menuItem>
+			<menuItem>Distribution</menuItem>
+		</menuFile>
+		<menuFile>Méthodologie XP
+			<menuItem>Répartition des rôles de l’équipe</menuItem>
+			<menuItem>Planification des scénarios</menuItem>
+		</menuFile>
+	</menu>
+	<menu>1. ARBRE DU CATALOGUE DES MEUBLES
+		<menuFile>Scénario n° 1
+			<menuItem>Spécifications de l’arbre du catalogue</menuItem>
+			<menuItem>Scénario de test</menuItem>
+		</menuFile>
+		<menuFile>Architecture des classes du scénario
+			<menuItem>Concepts du logiciel</menuItem>
+			<menuItem>Classes associées aux concepts</menuItem>
+			<menuItem>Architecture à trois couches</menuItem>
+			<menuItem>Diagramme UML des classes du scénario n° 1</menuItem>
+		</menuFile>
+		<menuFile>Programme de test de l’arbre du catalogue
+			<menuItem>Test JUnit du scénario n° 1</menuItem>
+		</menuFile>
+		<menuFile>Création des classes avec Eclipse
+			<menuItem>Création de la classe de meuble</menuItem>
+			<menuItem>Création des classes de catégorie et du catalogue</menuItem>
+			<menuItem>Création des classes de lecture du catalogue et de l’arbre</menuItem>
+			<menuItem>Exécution du programme de test</menuItem>
+		</menuFile>
+		<menuFile>Implémentation des classes de la couche métier
+			<menuItem>Attributs des classes associées au catalogue des meubles</menuItem>
+			<menuItem>Ajout des champs à la classe de meuble</menuItem>
+			<menuItem>Gestion des meubles dans la classe de catégorie</menuItem>
+			<menuItem>Gestion des catégories dans la classe du catalogue</menuItem>
+		</menuFile>
+		<menuFile>Lecture du catalogue par défaut
+			<menuItem>Format des propriétés des meubles par défaut</menuItem>
+			<menuItem>Lecture des propriétés</menuItem>
+			<menuItem>Vérification de la première partie du test</menuItem>
+		</menuFile>
+		<menuFile>Conception de la classe d’arbre
+			<menuItem>Création de la hiérarchie des nœuds affichée par l’arbre</menuItem>
+			<menuItem>Modification de l’apparence des nœuds de l’arbre</menuItem>
+		</menuFile>
+		<menuFile>Refactoring et optimisation
+			<menuItem>Utilisation d’un modèle optimal pour l’arbre</menuItem>
+			<menuItem>Gestion du cache des icônes</menuItem>
+		</menuFile>
+		<menuFile>Diagramme UML final des classes de l’arbre</menuFile>
+	</menu>
+	<menu>2. TABLEAU DES MEUBLES DU LOGEMENT
+		<menuFile>Scénario n° 2
+			<menuItem>Spécifications du tableau des meubles</menuItem>
+			<menuItem>Scénario de test</menuItem>
+		</menuFile>
+		<menuFile>Identification des nouvelles classes
+			<menuItem>Réutilisation du concept de meuble</menuItem>
+			<menuItem>Problème de conception objet</menuItem>
+			<menuItem>Solution proposée</menuItem>
+		</menuFile>
+		<menuFile>Diagramme UML des classes du scénario</menuFile>
+		<menuFile>Programme de test du tableau des meubles
+			<menuItem>Création des classes manquantes du scénario</menuItem>
+		</menuFile>
+		<menuFile>Gestion de la liste des meubles du logement
+			<menuItem>Interface commune aux classes de meubles</menuItem>
+			<menuItem>Classe de meuble du logement</menuItem>
+			<menuItem>Classe du logement</menuItem>
+		</menuFile>
+		<menuFile>Préférences utilisateur par défaut</menuFile>
+		<menuFile>Conception de la classe du tableau
+			<menuItem>Lecture du nom des colonnes du tableau</menuItem>
+		</menuFile>
+		<menuFile>Création du modèle du tableau
+			<menuItem>Test du modèle</menuItem>
+		</menuFile>
+		<menuFile>Modification de l’apparence des cellules du tableau
+			<menuItem>Attribution des renderers des colonnes</menuItem>
+			<menuItem>Renderer du nom d’un meuble</menuItem>
+			<menuItem>Renderer des dimensions d’un meuble</menuItem>
+			<menuItem>Renderer de la couleur d’un meuble</menuItem>
+		</menuFile>
+		<menuFile>Test des renderers
+			<menuItem>Vérification des textes affichés dans le tableau</menuItem>
+			<menuItem>Exécution des tests JUnit</menuItem>
+		</menuFile>
+		<menuFile>Refactoring de la classe du tableau
+			<menuItem>Intégration de meubles supplémentaires</menuItem>
+		</menuFile>
+	</menu>
+	<menu>3. MODIFICATION DU TABLEAU DES MEUBLES AVEC MVC
+		<menuFile>Scénario n° 3
+			<menuItem>Scénario de test</menuItem></menuFile>
+		<menuFile>Gestion des modifications dans la couche métier</menuFile>
+		<menuFile>Architecture Modèle Vue Contrôleur
+			<menuItem>Principe du MVC</menuItem>
+			<menuItem>Architecture MVC</menuItem>
+		</menuFile>
+		<menuFile>Diagramme UML des classes du scénario • 175</menuFile>
+		<menuFile>Programme de test de la modification de la liste des meubles</menuFile>
+		<menuFile>Ajout et suppression des meubles dans les contrôleurs
+			<menuItem>Contrôleur de la vue principale</menuItem>
+			<menuItem>Contrôleur de la vue de l’arbre</menuItem>
+			<menuItem>Contrôleur de la vue du tableau</menuItem>
+		</menuFile>
+		<menuFile>Notifications des modifications dans la couche métier
+			<menuItem>Sélection des meubles du catalogue</menuItem>
+			<menuItem>Interface du listener de sélection et classe d’événement associée</menuItem>
+			<menuItem>Sélection et modification des meubles du logement</menuItem>
+			<menuItem>Interface du listener des meubles</menuItem>
+		</menuFile>
+		<menuFile>Classes de la vue du logement et de la vue de test
+			<menuItem>Intégration de l’arbre et du tableau dans la vue du logement</menuItem>
+			<menuItem>Implémentation de la vue du test</menuItem>
+		</menuFile>
+		<menuFile>Synchronisation de la sélection dans l’arbre</menuFile>
+		<menuFile>Suivi des modifications de la couche métier dans le tableau
+			<menuItem>Synchronisation de la sélection dans le tableau et le logement</menuItem>
+			<menuItem>Gestion du déplacement des ascenseurs</menuItem>
+			<menuItem>Modification du modèle du tableau</menuItem>
+			<menuItem>Test de l’ajout de meubles</menuItem>
+		</menuFile>
+		<menuFile>Refactoring des classes de contrôleur </menuFile>
+	</menu>
+	<menu>4. GESTION DES ACTIONS ANNULABLES
+		<menuFile>Scénario n° 4
+			<menuItem>Spécifications des actions annulables</menuItem>
+			<menuItem>Scénario de test</menuItem>
+		</menuFile>
+		<menuFile>Opérations Annuler/Refaire dans Swing
+			<menuItem>Opération annulable</menuItem>
+			<menuItem>Gestionnaire de l’historique des annulations</menuItem>
+			<menuItem>Test unitaire du gestionnaire d’annulation</menuItem>
+			<menuItem>Diagramme de séquence de l’annulation d’une opération</menuItem>
+		</menuFile>
+		<menuFile>Gestion des notifications d’opérations annulables
+			<menuItem>Test unitaire du gestionnaire de notification</menuItem>
+			<menuItem>Gestion des opérations annulables dans le projet</menuItem>
+		</menuFile>
+		<menuFile>Activation et désactivation des actions
+			<menuItem>Notion d’action</menuItem>
+			<menuItem>Utilisation des actions dans la vue</menuItem>
+		</menuFile>
+		<menuFile>Programme de test des actions annulables</menuFile>
+		<menuFile>Gestion de l’annulation et des actions actives dans les contrôleurs
+			<menuItem>Listeners implémentés par le contrôleur</menuItem>
+			<menuItem>Opérations Annuler et Refaire</menuItem>
+			<menuItem>Ajout et suppression de meubles dans le contrôleur du tableau</menuItem>
+		</menuFile>
+		<menuFile>Indice d’insertion des meubles dans le logement
+			<menuItem>Création des actions dans la vue du logement</menuItem>
+			<menuItem>Refactoring des actions</menuItem>
+		</menuFile>
+	</menu>
+	<menu>5. COMPOSANT GRAPHIQUE DU PLAN
+		<menuFile>Scénario n° 5
+			<menuItem>Spécifications du composant du plan du logement
+				<ul><li>Création des murs</li>
+					<li>Sélection des murs</li></ul></menuItem>
+			<menuItem>Scénario de test</menuItem>
+		</menuFile>
+		<menuFile>Architecture des classes du scénario
+			<menuItem>Concept de mur</menuItem>
+			<menuItem>Gestion des extrémités des murs</menuItem>
+			<menuItem>Composant graphique du plan</menuItem>
+			<menuItem>Modification des préférences utilisateurs</menuItem>
+		</menuFile>
+		<menuFile>Diagramme UML des classes du scénario</menuFile>
+		<menuFile>Programme de test graphique du composant du plan
+			<menuItem>Abbot</menuItem>
+			<menuItem>Test JUnit/Abbot du scénario n° 5</menuItem>
+		</menuFile>
+		<menuFile>Gestion des murs dans la couche métier
+			<menuItem>Modification des préférences de l’utilisateur</menuItem>
+			<menuItem>Classe représentant un mur</menuItem>
+			<menuItem>Interface du listener des murs et classe d’événement associée</menuItem>
+			<menuItem>Gestion des murs du logement</menuItem>
+		</menuFile>
+		<menuFile>Création du composant du plan
+			<menuItem>Dessin des murs avec des lignes</menuItem>
+			<menuItem>Application de test du composant du plan</menuItem>
+			<menuItem>Dessin du contour de chaque mur</menuItem>
+			<menuItem>Motif appliqué aux murs</menuItem>
+			<menuItem>Dessin de la grille, des murs sélectionnés et du rectangle de sélection</menuItem>
+			<menuItem>Suivi des notifications de la couche métier</menuItem>
+			<menuItem>Gestion de la zone visible du composant</menuItem>
+		</menuFile>
+		<menuFile>Positionnement des listeners AWT et des actions du clavier
+			<menuItem>Listener de la souris</menuItem>
+			<menuItem>Listener du focus</menuItem>
+			<menuItem>Gestion des entrées clavier</menuItem>
+			<menuItem>Installation des listeners et des entrées clavier</menuItem>
+			<menuItem>Modification du curseur</menuItem>
+		</menuFile>
+		<menuFile>Méthodes de détection des murs</menuFile>menuFile>
+		<menuFile>Implémentation du contrôleur du composant du plan
+			<menuItem>Diagramme d’états-transitions du contrôleur</menuItem>
+			<menuItem>Implémentation du diagramme d’états-transitions</menuItem>
+			<menuItem>Application du pattern état dans la classe du contrôleur</menuItem>
+			<menuItem>Programmation des sous-classes d’état</menuItem>
+			<menuItem>Méthodes et classes internes d’outils</menuItem>
+			<menuItem>Calcul du magnétisme</menuItem>
+			<menuItem>Implémentation de l’état Sélection</menuItem>
+			<menuItem>Implémentation de l’état Création de mur</menuItem>
+			<menuItem>Implémentation de l’état Sélection d’un mur et déplacement</menuItem>
+			<menuItem>Implémentation des autres états</menuItem>
+	</menuFile>
+	<menuFile>Optimisation du composant du plan</menuFile>
+	<menuFile>Scénario n° 6
+		<menuItem>Modification du mode de sélection dans le plan</menuItem>
+		<menuItem>Position et orientation d’un meuble</menuItem>
+		<menuItem>Composant graphique du plan du logement</menuItem>
+		<menuItem>Intégration du composant du plan dans la vue de l’application</menuItem>
+		<menuItem>Résultat du scénario n° 6</menuItem>
+	</menuFile>
+</menu>
+<menu>6. VUE 3D DU LOGEMENT
+	<menuFile>Scénario n° 7</menuFile>
+	<menuFile>Arbre de la scène 3D du logement</menuFile>
+	<menuFile>Diagramme UML des classes du scénario</menuFile>
+	<menuFile>Gestion de la hauteur des murs du logement</menuFile>
+	<menuFile>Ajout de la vue 3D dans la vue du logement</menuFile>
+	<menuFile>Implémentation du composant 3D
+		<menuItem>Création des nœuds du comportement, du fond d’écran et des lumières</menuItem>
+		<menuItem>Création du sous-arbre du logement</menuItem>
+		<menuItem>Branches des murs</menuItem>
+		<menuItem>Branches des meubles</menuItem>
+		<menuItem>Test de la vue 3D du logement</menuItem>
+	</menuFile>
+	<menuFile>Optimisation du chargement des modèles 3D</menuFile>
+</menu>
+<menu>7. ENREGISTREMENT ET LECTURE DU LOGEMENT
+	<menuFile>Scénario n° 8
+		<menuItem>Spécifications des opérations d’enregistrement et de lecture</menuItem>
+		<menuItem>Scénario de test</menuItem>
+	</menuFile>
+	<menuFile>Architecture des classes du scénario
+		<menuItem>Sérialisation des objets</menuItem>
+		<menuItem>Intégration de l’enregistrement dans l’interface utilisateur</menuItem>
+	</menuFile>
+	<menuFile>Programme de test de l’enregistrement</menuFile>
+	<menuFile>Implémentation de l’enregistrement et de la lecture
+		<menuItem>Classes sérialisables</menuItem>
+		<menuItem>Notification des modifications des propriétés du logement</menuItem>
+		<menuItem>Classe d’exception de la couche métier</menuItem>
+		<menuItem>Enregistrement et lecture d’un logement</menuItem>
+		<menuItem>Classes de gestion de l’application</menuItem>
+		<menuItem>Intégration de la lecture et de l’enregistrement dans le contrôleur</menuItem>
+	</menuFile>
+	<menuFile>Gestion des dialogues avec l’utilisateur
+		<menuItem>Actions du menu Fichier</menuItem>
+		<menuItem>Boîtes de dialogue de choix de fichier</menuItem>
+		<menuItem>Boîtes de message et de confirmation</menuItem>
+		<menuItem>Boîte de message d’erreur</menuItem>
+		<menuItem>Boîtes de dialogue de confirmation</menuItem>
+	</menuFile>
+	<menuFile>Vue de la fenêtre d’un logement
+		<menuItem>Optimisation de la vitesse d’enregistrement</menuItem>
+		<menuItem>Intégration de l’application dans Mac OS X</menuItem>
+		<menuItem>Configuration du menu application</menuItem>
+		<menuItem>Intégration de la barre de menus de l’application</menuItem>
+		<menuItem>Modification du titre de la fenêtre</menuItem>
+		<menuItem>Utilisation de la boîte de dialogue de choix de fichier native</menuItem>
+		<menuItem>Test des modifications</menuItem>
+	</menuFile>
+</menu>
+<menu>8. GLISSER - DÉPOSER ET COPIER - COLLER
+	<menuFile>Scénario n° 9
+		<menuItem>Spécifications du glisser-déposer et des opérations de couper/copier/coller</menuItem>
+		<menuItem>Scénario de test</menuItem>
+	</menuFile>
+	<menuFile>Gestion du glisser-déposer dans Swing</menuFile>
+	<menuFile>Architecture des classes du scénario
+		<menuItem>Gestionnaires de transfert de données</menuItem>
+		<menuItem>Modifications des classes existantes</menuItem>
+	</menuFile>
+	<menuFile>Programme de test du glisser-déposer et du copier-coller</menuFile>
+	<menuFile>Création des gestionnaires de transfert de données et de focus
+		<menuItem>Actions du menu Edition</menuItem>
+		<menuItem>Gestion du focus sur les vues</menuItem>
+		<menuItem>
+			<ul><li>Gestion du rectangle de suivi du focus ds la classe HomePane</li>
+				<li>Limitation du focus aux vues du catalogue, des meubles et du plan</li>
+				<li>Création des gestionnaires de transfert de données</li>
+			</ul></menuItem>
+	</menuFile>
+	<menuFile>Implémentation des gestionnaires de transfert de données
+		<menuItem>Liste des données transférées</menuItem>
+		<menuItem>Gestionnaire de transfert de données du catalogue</menuItem>
+		<menuItem>Gestionnaires de transfert de données du tableau et du plan</menuItem>
+		<menuItem>Gestionnaires de transfert de données du tableau des meubles</menuItem>
+	</menuFile>
+	<menuFile>Gestion du couper/coller/déposer dans le contrôleur
+		<menuItem>Couper</menuItem>
+		<menuItem>Coller et déposer</menuItem>
+		<menuItem>Suivi du changement de focus</menuItem>
+	</menuFile>
+	<menuFile>Test du glisser-déposer et du copier-coller dans l’application
+		<menuItem>Glisser-déposer sans présélection</menuItem>
+		<menuItem>Glisser-déposer dans un tableau vide</menuItem>
+	</menuFile>
+</menu>
+<menu>9. ÉDITION DES PRÉFÉRENCES UTILISATEUR ............ 441
+Scénario n° 10 • 442
+Spécifications de l’édition des préférences utilisateur • 442
+Scénario de test • 443
+Disposition des composants d’une boîte de dialogue • 443
+Disposer des composants avec la classe GridBagLayout • 444
+Contraintes sur les composants • 445
+Implémentation de la disposition des composants dans le panneau • 447
+Affichage du panneau dans une boîte de dialogue • 449
+Test du panneau • 450
+Architecture des classes du scénario • 451
+Programme de test de modification des préférences • 452
+Implémentation de l’enregistrement des préférences • 454
+Lecture et enregistrement des préférences • 455
+Notification des modifications des préférences • 456
+Utilisation des préférences enregistrées dans l’application • 458
+Intégration de la gestion des préférences dans le contrôleur • 458
+Modification des préférences dans l’interface utilisateur • 459
+Actions des éléments de menus Préférences et A propos • 459
+Panneau des préférences utilisateur • 462
+Création des composants • 463
+Mnémoniques des composants textuels • 465
+Disposition des composants • 466
+Affichage du panneau dans une boîte de dialogue • 467
+Suivi des modifications des préférences dans le tableau des meubles et le plan • 469
+Boîte de dialogue A propos avec liens hypertextes • 470
+Déploiement avec Java Web Start • 473
+Application signée • 474
+Distribution de la bibliothèque Java 3D • 476
+Ressources Java 3D pour Java Web Start • 476
+Génération des fichiers déployés avec Ant • 477
+Test de l’application Java Web Start • 480
+Installation de l’application avec Java Web Start • 480
+Lecture des fichiers associés à l’application • 483
+Test de l’installation de l’application Java Web Start • 485
+Sous Windows • 485
+Sous Linux • 488
+Sous Mac OS X • 488
+Page d’accueil du site web • 488
+</menu>
+</root>
